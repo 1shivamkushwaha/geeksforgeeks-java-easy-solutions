@@ -1,0 +1,17 @@
+import java.lang.*;
+import java.io.*;
+class GFG
+ {
+	public static void main (String[] args)
+	 {
+	    Scanner sc = new Scanner(System.in);
+		int t = sc.nextInt();
+		while(t>0)
+		{
+		    String s1 = sc.next();
+		    s1= s1.toLowerCase();
+		    System.out.println(s1);
+		    t--;
+		}
+	 }
+}
